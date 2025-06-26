@@ -5,7 +5,7 @@ ticketMaster:
   hostDataPath: /run/desktop/mnt/host/c/Users/mikumifa/GolandProjects/biliTickerStorm/data
 
 ticketWorker:
-  image: mikumifa/bili-ticker-storm-worker:latest
+  image: zyy130988/bili-ticker-storm-worker:latest
   pushplusToken: ""
   ticketInterval: ""
   masterServerAddr: ticket-master:40052
